@@ -5,33 +5,33 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+.body {
   background-color: #f4f4f4;
   color: #333;
 }
 
-header {
+.header {
   background-color: #35ac3b;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-header h1 {
+.header h1 {
   margin-bottom: 10px;
 }
 
-nav ul {
+.nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-nav a {
+.nav a {
   color: white;
   text-decoration: none;
-  font-weiht: bold;
+  font-weight: bold;
 }
 
 .container {
@@ -95,7 +95,7 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
-  
+   }
   .container {
     display: flex;
     flex-direction: column;
@@ -106,11 +106,11 @@ footer {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-
-  .container{
-   font-family: Georgia, 'Times New Roman', Times, serif;: ;
-
-   .style{
+ }
+  .container {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+   .style {
     width: 100%;
     height: auto;
     max-height: 300px;
